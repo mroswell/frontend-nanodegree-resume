@@ -13,6 +13,10 @@
   padding-right: 5%;
 }
 
+.project-entry {
+    max-width: 40%;
+}
+
 h1 {
   font-size: 40px;
   color: #F5A623;
@@ -23,9 +27,9 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #F5A623;
   line-height: 29px;
-  padding: 10px;
+    padding:10px;
 }
 
 h3 {
@@ -48,6 +52,9 @@ h2, h3, h4, h5 {
   padding-right: 5%;
 }
 
+.project-entry img {
+  width: 320px;
+}
 
 .date-text {
   font-style: italic;
@@ -73,7 +80,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #036564; /* #1199C3*/
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -91,8 +98,8 @@ a {
   display: none;
 }
 
-.orange {
-  background-color: #F5AE23;
+.green {
+  background-color: #358383;
 }
 
 .orange-text {
@@ -105,7 +112,7 @@ a {
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #f0f6f6; /*#F4F8F8; /*#F3F3F3;*/
   padding-bottom: 10px;
   clear:both;
 }
@@ -116,7 +123,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color:#358383; /* #4e9392; /* #484848;*/
 }
 
 .flex-box {
@@ -142,7 +149,7 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 180px;
   display: none;
 }
 
